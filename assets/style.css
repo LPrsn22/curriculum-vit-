@@ -31,8 +31,7 @@
   height: 25%;
   width: 25%;
   transform: scale(1.2);
-   transition: 1s;
-   
+  transition: 1s;
 }
 
 h1 {
@@ -57,18 +56,17 @@ h2 {
   justify-content: space-between;
   align-items: center;
   padding: 15px 35px 15px 35px;
-   
 }
 
 .navbar a {
-   color: white;
-  font-family: "Raleway"; 
+  color: white;
+  font-family: "Raleway";
   text-decoration: none;
   justify-content: center;
   align-items: center;
 }
 
-.navbar a:hover{
+.navbar a:hover {
   text-decoration: underline;
 }
 
@@ -77,21 +75,22 @@ h2 {
 .left {
   display: flex;
   background-color: #782221;
-  align-items:stretch;
+  align-items: stretch;
   flex-direction: column;
-  height:auto;
+  height: auto;
   width: 25%;
-  padding-bottom: 60%;
+  padding-bottom: 61%;
+  
 }
 
 .left section {
-    color: white;
-    font-family: "Lato";
-    text-align: left;
-  }
+  color: white;
+  font-family: "Lato";
+  text-align: left;
+}
 
 .left h3 {
-  font-family: 'Raleway';
+  font-family: "Raleway";
   background-color: #dbc2a4;
   color: black;
   width: 85%;
@@ -99,11 +98,11 @@ h2 {
 }
 
 .left p {
-    text-align: justify;
-    font-family: 'Lato';
-    text-indent: 25px;
-    margin: 15px;
-    margin-right: 45px;
+  text-align: justify;
+  font-family: "Lato";
+  text-indent: 25px;
+  margin: 15px;
+  margin-right: 45px;
 }
 
 /* informations professionnelles */
@@ -120,38 +119,35 @@ h2 {
   width: auto;
   margin-left: 28%;
   margin-right: auto;
-  margin-top: -103%;
+  margin-top: -104%;
   margin-bottom: 0;
-  
 }
 
-
 .right h3 {
-    font-family: 'Raleway';
-    background-color: #dbc2a4;
-    color: black;
-    width: 85%; 
-    padding: 7px 90px 7px 15px;
-    border-left: 7px solid #782221; 
-  }
+  font-family: "Raleway";
+  background-color: #dbc2a4;
+  color: black;
+  width: 85%;
+  padding: 7px 90px 7px 15px;
+  border-left: 7px solid #782221;
+}
 
-  h4{
-    font-family: 'Raleway';
-    font-weight: 800 ;
+h4 {
+  font-family: "Raleway";
+  font-weight: 800;
+}
 
-  }
+.right p {
+  font-weight: 600;
+}
 
-  .right p{
-    font-weight: 600;
-  }
+.right div:hover {
+  border-right: 5px solid #782221;
+}
 
-  .right div:hover{
-    border-right: 5px solid #782221;
-  }
-
-  .skill li:hover{
-    border-right: 5px solid #782221;
-  }
+.skill li:hover {
+  border-right: 5px solid #782221;
+}
 
 /* pied de page */
 
@@ -164,11 +160,9 @@ h2 {
   background-color: #782221;
   margin-top: 3px;
   margin-bottom: 2px;
-  padding-top: 3px ;
+  padding-top: 3px;
   padding-bottom: 2px;
 }
-
-
 
 .foot-box p {
   flex-wrap: wrap;
@@ -181,7 +175,7 @@ h2 {
 }
 
 .foot-box img:hover {
-  opacity:0.50 ;
+  opacity: 0.5;
 }
 
 /* mini modif */
