@@ -5,10 +5,6 @@
   src: url("./fonts/Raleway/Raleway-VariableFont_wght.ttf");
 }
 
-*{
-
-}
-
 /* header */
 
 .head-box {
@@ -20,18 +16,24 @@
   background-color: #782221;
 }
 
-.img-profil {
+.imgprofil {
   border-radius: 50%;
   height: 15%;
   width: 15%;
   margin-top: 5%;
   margin-bottom: 2%;
   object-fit: cover;
-  border-radius: 50%;
   box-shadow: 1px 2px 15px 15px rgba(255, 255, 255, 0.258);
   cursor: zoom-in;
 }
 
+.imgprofil:active {
+  height: 25%;
+  width: 25%;
+  transform: scale(1.2);
+   transition: 1s;
+   
+}
 
 h1 {
   margin: 5px 2px 5px 2px;
@@ -64,6 +66,10 @@ h2 {
   text-decoration: none;
   justify-content: center;
   align-items: center;
+}
+
+.navbar a:hover{
+  text-decoration: underline;
 }
 
 /* Corps du CV */
@@ -139,6 +145,14 @@ h2 {
     font-weight: 600;
   }
 
+  .right div:hover{
+    border-right: 5px solid #782221;
+  }
+
+  .skill li:hover{
+    border-right: 5px solid #782221;
+  }
+
 /* pied de page */
 
 .foot-box {
@@ -166,5 +180,8 @@ h2 {
   margin: 5px;
 }
 
+.foot-box img:hover {
+  opacity:0.50 ;
+}
 
 /* mini modif */
